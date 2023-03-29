@@ -1,4 +1,4 @@
-#   hi there :wave:
+#   Hi there :wave:
 this is a demo ECommercial website for 2Cloud task
 
 
