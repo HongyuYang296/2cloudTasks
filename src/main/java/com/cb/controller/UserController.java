@@ -12,10 +12,5 @@ public class UserController {
         return "user";
     }
 
-    @GetMapping("/product")
-    public String registrationproduct() {
-        return "product";
-    }
-
 }
 

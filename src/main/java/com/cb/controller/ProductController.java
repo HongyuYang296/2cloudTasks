@@ -20,10 +20,6 @@ public class ProductController {
     @Autowired
     private ProductsService service;
 
-//    @GetMapping("/product")
-//    public String productPage() {
-//        return "product";
-//    }
 
 
     @GetMapping("/product")

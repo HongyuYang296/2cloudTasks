@@ -40,13 +40,12 @@ public class ProductsService {
 
 
 
-
     public Products get(Long id) throws ProductsNotFoundException {
         Optional<Products> result = repository.findById(id);
         if (result.isPresent()) {
             return result.get();
         }
-        throw new ProductsNotFoundException("Could not find any users with ID "+ id);
+        throw new ProductsNotFoundException("Could not find any products with ID "+ id);
     }
 
     public Optional<Products> getOne(Long id) {
